@@ -55,7 +55,7 @@ diag "properties:";
 #------------------------------------------------------------------------------
 # VERSION
 
-my $want_version = 1;
+my $want_version = 52;
 {
   is ($Gtk2::Ex::Splash::VERSION,
       $want_version,

@@ -17,5 +17,9 @@ with Gtk2-Ex-Splash.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
+Version 52, April 2011
+    - gtk2-ex-splash program fix "--time" option
+    - jump version past gtk2-ex-splash accidentally had $VERSION=51
+
 Version 1, April 2011
     - the first version

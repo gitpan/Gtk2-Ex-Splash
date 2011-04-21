@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Gtk2-Ex-Splash
-version:            1
+version:            52
 abstract:           Simple digital splash widget.
 author:
     - Kevin Ryde <user42@zip.com.au>

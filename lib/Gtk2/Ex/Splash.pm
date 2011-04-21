@@ -24,7 +24,7 @@ use Gtk2;
 use List::Util 'max';
 use Scalar::Util;
 
-our $VERSION = 1;
+our $VERSION = 52;
 
 # uncomment this to run the ### lines
 #use Smart::Comments;

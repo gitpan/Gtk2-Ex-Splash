@@ -23,17 +23,17 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Glib 1.220; # for SOURCE_REMOVE
-use Gtk2 '-init';
+use Gtk2;
 use Gtk2::Ex::Splash;
 
-our $VERSION = 51;
+our $VERSION = 52;
 
 # uncomment this to run the ### lines
 #use Smart::Comments;
 
 
 my $option_time = .75; # seconds
-GetOptions('time' => \&$option_time,
+GetOptions('time=f' => \$option_time,
            'version' => sub {
              print "gtk2-ex-splash version $main::VERSION\n";
              exit 0;
@@ -53,6 +53,7 @@ if (! @ARGV) {
 }
 my $filename = $ARGV[0];
 
+Gtk2->init;
 my $splash = Gtk2::Ex::Splash->new (filename => $filename);
 $splash->present;
 Glib::Timeout->add (int($option_time*1000), # in milliseconds

@@ -15,29 +15,31 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 842745cb706f8f2126506f544492f7a80dbe29b3 COPYING
-SHA1 894b44f3eebeaf6535366260d685894686642ef7 Changes
-SHA1 bc700b623a97c025987e6d57cf449feefdfb2ce3 MANIFEST
+SHA1 da81aa32f54c12f50e2c52182861b296b9819a89 Changes
+SHA1 ff52688eb5f0afd8c04bf973bef62fd5d1753f14 MANIFEST
 SHA1 f42e495e55aa5c6fa78de6ca47938b84cd7015b2 MANIFEST.SKIP
-SHA1 42b3221aeeff78d5dee8adaaab2fbe65fba18f3c META.yml
+SHA1 a3e15761b9a86b88741b0ca4549567adfb6c0f3f META.yml
 SHA1 290afea51cfc0fcb529e5a1a9228d6d01693f664 Makefile.PL
-SHA1 de18ebd23c465c3390033c26cd8f813c91f7145c debian/changelog
+SHA1 1598333ccc1f6e33c7d78c269b0eda005a4ecb88 debian/changelog
 SHA1 ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4 debian/compat
 SHA1 0bce3ab0ad53b7b4d7eb61eb5cf68c1d65f3f0dd debian/control
 SHA1 d03ef88dafa4136f9833a8e37f16c2e5253b3f47 debian/copyright
 SHA1 1fcf4ff5f03cd48bc5b31bf23a2068c393be6782 debian/rules
 SHA1 61652cd1568dcf2614df833eba241755eee34e89 debian/source/format
 SHA1 68e004f4eff8cc6790a68e09b8737fc051c0223b debian/watch
-SHA1 89bce14e38341b43848d1ccbcaaf80ff103b141b devel/SplashGdk.pm
+SHA1 4a53d811847ebfcf06cac46e55a889b49d9c691a devel/SplashGdk.pm
+SHA1 ee56cd16faa76bbe23e24b75b5977cdb11c90c86 devel/gtk2-ex-splash.desktop
+SHA1 e98d3f0a08d05413f0c38b8e7dc0747d670d980e devel/root.pl
 SHA1 4e2af9fc8380340a3ce93ecce19f1f51a0d3c795 devel/run-splash-gdk.pl
 SHA1 159d46d24c6534aaac7ecb1319653c1b15317d12 devel/run-splash.pl
-SHA1 4d64d36097ea541488f269007c6206831b64a4ec gtk2-ex-splash
-SHA1 bf5c6272b1412afd013b9b0edca7550061909886 inc/MyMakeMakerExtras.pm
+SHA1 7564dc15d7eb3cfb33746ad2ef839079475021f6 gtk2-ex-splash
+SHA1 b8b118de25ddcda14762cde4107e1669d1855c35 inc/MyMakeMakerExtras.pm
 SHA1 7a988b2aa7ed09f1cb9029a1ef3f0e2139dca0cf inc/my_pod2html
-SHA1 d27bf8afd2a3154ca7b98b162f9aee60aaaf62c4 lib/Gtk2/Ex/Splash.pm
+SHA1 94054c4c0d3410d12eb57aeab55099e611f34f92 lib/Gtk2/Ex/Splash.pm
 SHA1 51456d64ca8f20d6808f6f3c8aa1f4f2553cb78d t/MyTestHelpers.pm
 SHA1 5e5e367425ca62c4b0921b4ff829d54a08dec034 t/Splash-load.t
 SHA1 d8df144e14482cc9358e8d10e8869e815c21bea6 t/Splash-weaken.t
-SHA1 04351e5d9d128004ec50a8f77f51be2b99baeec8 t/Splash.t
+SHA1 577f2b1c9c025491de9e9aa7fd8e83d26c1c9f20 t/Splash.t
 SHA1 1a0dee3ed339f3c1d681f29e7c32e8e218159b4d t/Test/Weaken/ExtraBits.pm
 SHA1 0279c9310ec528d10a2a14e602bf98f1c776cce1 xt/0-META-read.t
 SHA1 219395eb91b03829e6f14db4ebd57d88ea972e61 xt/0-Test-ConsistentVersion.t
@@ -49,7 +51,7 @@ SHA1 c84fa2f39a57885c647ebb69a456f3129de706c1 xt/0-exe-shebang.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iD8DBQFNlk2cLFMCIV9q3ToRAvF0AJ4rKAgX8S6cm1X82ZPAE3ofOzuxXgCfUPUy
-HV2ywXlg+ogP2nGwld+Pr/o=
-=J1fm
+iD8DBQFNr1epLFMCIV9q3ToRAqweAJ0TmtWuMA8MeicUjos7zwtrSW0ymwCgn8wh
+tvwAgEbYIO0aptEyLUdIk+A=
+=1Y4V
 -----END PGP SIGNATURE-----
